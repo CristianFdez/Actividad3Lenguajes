@@ -9,8 +9,8 @@
             </head>
             <body>
 
-                <h1 style="color:red"><xsl:value-of select="ite/empresa"/></h1>
-                <h1 style="color:red"><xsl:value-of select="ite/telefono"/></h1>
+                <h1><xsl:value-of select="ite/empresa"/></h1>
+                <h1><xsl:value-of select="ite/telefono"/></h1>
 
                 <xsl:for-each select="ite/profesores/profesor">
                     <p>
