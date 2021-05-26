@@ -1,10 +1,17 @@
-empresa, telefono, id, nombre, despacho, grado, url {
-    font-family: Calibri;
-    font-size: larger;
-    width: 200px;
-    border: 3px groove red;
+title {
+    font-size: 22px;
     display: block;
     float: left;
     text-align: center;
+    background-color: dimgray;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: darkgray;
     padding: 5px;
 }
