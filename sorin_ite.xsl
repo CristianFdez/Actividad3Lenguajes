@@ -92,9 +92,19 @@
                         <br/>
                         <input type="text" name="provincia"/>
                         <br/>
-                        <textarea name="mensaje"/>
+                        <label for="curso">Curso:</label>
+                        <select name="curso">
+                            <option value="ASIR">ASIR</option>
+                            <option value="DAW">DAW</option>
+                            <option value="DAM">DAM</option>                        
+                        </select>
+                        <br/>
+                        <label>Mensaje:</label>
+                        <br/>
+                        <textarea name="mensaje"></textarea>
                         <br/>
                         <input type="submit" value="Enviar"/>
+                        <input type="reset" value="Limpiar"/>
                     </form>
                 </p>
             </body>
